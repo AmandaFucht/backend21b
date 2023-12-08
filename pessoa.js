@@ -5,7 +5,7 @@ var pessoa = banco.conexao.define(
     "pessoa",
     {
         id:{
-            type:sequelize.INTEGER.UNSIGNED,
+            type:sequelize.INTEGER,
             primaryKey: true,
             autoIncrement:true
         },
